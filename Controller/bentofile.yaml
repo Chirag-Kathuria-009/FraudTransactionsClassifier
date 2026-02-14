@@ -1,0 +1,8 @@
+service: "service:svc"
+include:
+  - fraud_datamodel_ieee.txt
+python:
+  packages:
+    - lightgbm
+    - shap
+    - pandas
